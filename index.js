@@ -47,16 +47,18 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
+
 // Used writeFileSync from file system in Node toguether with process.cwd (current working directory) to create following function
-// also imported path module to work with directory files
 // -https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options
-// - https://www.geeksforgeeks.org/node-js-process-cwd-method/
+// -https://www.geeksforgeeks.org/node-js-process-cwd-method/
+// also imported path module to work with directory files
+// -https://nodejs.org/api/path.html
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
   }
 
 // TODO: Create a function to initialize app
-// 
+
 function init() {
     inquirer.prompt(questions).then((inquirerResponses) => {
       console.log('README file under construction...');
