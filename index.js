@@ -1,10 +1,8 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require("fs");
 const path = require("path");
 
-// TODO: Create an array of questions for user input
 const questions = [
   {
     type: "input",
@@ -57,8 +55,6 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
-
 // Used writeFileSync from file system in Node toguether with process.cwd (current working directory) to create following function
 // -https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options
 // -https://www.geeksforgeeks.org/node-js-process-cwd-method/
@@ -68,7 +64,6 @@ function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-// TODO: Create a function to initialize app
 // Used inquirer to prompt questions on command line
 // -https://www.npmjs.com/package/inquirer
 function init() {
@@ -78,5 +73,5 @@ function init() {
   });
 }
 
-// Function call to initialize app
+// Initialization call
 init();
