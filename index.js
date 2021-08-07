@@ -41,7 +41,7 @@ const questions = [
       {
         type: 'list',
         name: 'license',
-        message: 'Please select a license template to add into your project',
+        message: 'Please select a license type for your project',
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
       },
       {
@@ -71,7 +71,7 @@ function writeToFile(fileName, data) {
 
 function init() {
     inquirer.prompt(questions).then((inquirerResponses) => {
-      console.log('README file under construction...');
+      console.log('Your new README file is now CREATED');
       writeToFile('README.md', generateMarkdown({ ...inquirerResponses }));
     });
   }

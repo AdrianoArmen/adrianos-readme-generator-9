@@ -83,7 +83,7 @@ ${data.test}
 
 If you have any questions send me an email at ${
     data.email
-  }. Here is my GitHub profile [${data.github}](https://github.com/${
+  } or check my projects in GitHub --> [${data.github}](https://github.com/${
     data.github
   }/).
 

@@ -1,9 +1,9 @@
-# xx
+# Dummy Title
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Description 📋
 
-xx
+Dummy description for Node.js homework
 
 ## Table of Contents 🔧
 
@@ -24,12 +24,12 @@ xx
 To begin dependencies installation run the following command:
 
 ```
-xx
+npm install dummy
 ```
 
 ## Usage 📄
 
-xx
+Dummy usage information for Node.js homework
 
 ## License
 
@@ -37,17 +37,17 @@ This project is licensed under the MIT license.
   
 ## Contributing 👥
 
-xx
+Dummy contributing information for Node.js homework
 
 ## Tests 📦
 
 To run tests enter the following command:
 
 ```
-xx
+npm run dummy_test
 ```
 
 ## Questions 🚀
 
-If you have any questions send me an email at adriano.armendaris@gmail.com. Here is my GitHub profile [AdrianoArmen](https://github.com/AdrianoArmen/).
+If you have any questions send me an email at adriano.armendaris@gmail.com or check my projects in GitHub --> [AdrianoArmen](https://github.com/AdrianoArmen/).
 
