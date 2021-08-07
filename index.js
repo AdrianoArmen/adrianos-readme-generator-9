@@ -19,7 +19,7 @@ const questions = [
       {
         type: 'input',
         name: 'installation',
-        message: 'Describe your project´s installation instructions',
+        message: 'What command line code should I enter to begin dependencies installation?',
         default: 'npm i',
       },
       {
@@ -35,7 +35,7 @@ const questions = [
       {
         type: 'input',
         name: 'test',
-        message: 'Provide instructions to run tests in your project',
+        message: 'What command line code should I enter to run tests?',
         default: 'npm test',
       },
       {
