@@ -12,7 +12,7 @@ Homework 9 - Readme Generator
 
 ## Walkthrough Video 📺
 
-- [Video Link](https://github.com/AdrianoArmen/adrianos-readme-generator-9)
+- [Video Link](https://www.loom.com/share/5eb1b87516d3450a9e612bcffcb2f2e4)
 
 ## Project Description 📋
 
