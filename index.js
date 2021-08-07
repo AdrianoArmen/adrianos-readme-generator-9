@@ -44,6 +44,11 @@ const questions = [
         message: 'Please select a license template to add into your project',
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
       },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'Type your GitHub user name',
+      },
 ];
 
 // TODO: Create a function to write README file
