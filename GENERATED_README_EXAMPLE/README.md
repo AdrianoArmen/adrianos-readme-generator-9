@@ -1,9 +1,9 @@
-# Mockup
+# Dummy Title
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Description 📋
 
-Mockup description for homework 9
+Dummy description for Node.js homework
 
 ## Table of Contents 🔧
 
@@ -24,12 +24,12 @@ Mockup description for homework 9
 To begin dependencies installation run the following command:
 
 ```
-node index.js
+npm install dummy
 ```
 
 ## Usage 📄
 
-Mockup usasge information for homework 9
+Dummy usage information for Node.js homework
 
 ## License
 
@@ -37,17 +37,17 @@ This project is licensed under the MIT license.
   
 ## Contributing 👥
 
-Mockup contributing information for homework 9
+Dummy contributing information for Node.js homework
 
 ## Tests 📦
 
 To run tests enter the following command:
 
 ```
-npm test
+npm run dummy_test
 ```
 
 ## Questions 🚀
 
-If you have any questions send me an email at undefined. Here is my GitHub profile [undefined](https://github.com/undefined/).
+If you have any questions send me an email at adriano.armendaris@gmail.com or check my projects in GitHub --> [AdrianoArmen](https://github.com/AdrianoArmen/).
 

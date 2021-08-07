@@ -1,53 +1,47 @@
-# Dummy Title
-![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
+# adrianos-readme-generatos-9
 
-## Description 📋
+Homework 8 - Gatsby Portfolio
 
-Dummy description for Node.js homework
+## GitHub Repository 🚀
 
-## Table of Contents 🔧
+- [GitHub Repo Link](https://github.com/AdrianoArmen/adrianos-readme-generator-9)
 
-* [Installation](#installation)
+## Example Result 📦
 
-* [Usage](#usage)
+- [Generated README file from example](GENERATED_README_EXAMPLE\README.md)
 
-* [License](#license)
 
-* [Contributing](#contributing)
+## Project Description 📋
 
-* [Tests](#tests)
+This professional portfolio was designed to showcase my versatility to work with different front-end technologies. Taking into account that my main portfolio is already built using React and deployed. I created a fresh new one-page portfolio this time utilizing a React-based, GraphQL powered, static site generator called GatsbyJS. I took a Gatsby featured started to create the structure of my project then I customized internal components, getting a chance to identify the differences and similarities between this SSG and regular Regular app creation, as far as routing, hosting images, and directory organization.
 
-* [Questions](#questions)
+**_Note_**: The project meets the acceptance criteria and has functional links to my updated online profiles including [LinkedIn](https://www.linkedin.com/in/adriano-armendaris/) [GitHub](https://github.com/AdrianoArmen) and my [Resume](https://drive.google.com/file/d/1kg6Mfy4G0UMV_z7aZ_5ic8V4bVmhDpul/view?usp=sharing)
 
-## Installation 🛠️
+## Mockup 🔧
 
-To begin dependencies installation run the following command:
+- The following animation demonstrates the actual application functionality:
 
-```
-npm install dummy
-```
+![A preofessional responsive portfolio with an orange and white theme that showcases previous project mockups](./readmeimg/appfunctionality.gif)
 
-## Usage 📄
+## Previous versions - Starters 👥
 
-Dummy usage information for Node.js homework
+- [Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)
+- [Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://www.gatsbyjs.com/)
 
-## License
+**_Note_**: Since my most updated portfolio is my [React Portfolio](https://determined-volhard-b649b0.netlify.app/) I decided to showcase my knowledge on Static Site Generators and customized this starter open source project from [GatsbyJS](https://determined-volhard-b649b0.netlify.app/)
 
-This project is licensed under the MIT license.
-  
-## Contributing 👥
+## Technologies used 🛠️
 
-Dummy contributing information for Node.js homework
+- [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
+- [GraphQL](https://graphql.org/) - Query language for APIs
+- [React](https://es.reactjs.org/) - Front-End JavaScript library
+- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
+- [Sass](https://sass-lang.com/documentation) - CSS extension language
 
-## Tests 📦
+## License 📄
 
-To run tests enter the following command:
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-```
-npm run dummy_test
-```
+---
 
-## Questions 🚀
-
-If you have any questions send me an email at adriano.armendaris@gmail.com or check my projects in GitHub --> [AdrianoArmen](https://github.com/AdrianoArmen/).
-
+© 2021 Adriano.
