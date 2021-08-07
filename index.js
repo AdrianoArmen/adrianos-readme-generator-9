@@ -1,59 +1,60 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
-const fs = require('fs');
-const path = require('path');
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require("fs");
+const path = require("path");
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {
-        type: 'input',
-        name: 'title',
-        message: "Enter your project´s title",
-      },
-      {
-        type: 'input',
-        name: 'description',
-        message: 'Write a brief description of your project',
-      },
-      {
-        type: 'input',
-        name: 'installation',
-        message: 'What command line code should I enter to begin dependencies installation?',
-        default: 'npm i',
-      },
-      {
-        type: 'input',
-        name: 'usage',
-        message: 'Provide any relevant usage information about your project',
-      },
-      {
-        type: 'input',
-        name: 'contributing',
-        message: 'Provide any relevant contributing information about your project',
-      },
-      {
-        type: 'input',
-        name: 'test',
-        message: 'What command line code should I enter to run tests?',
-        default: 'npm test',
-      },
-      {
-        type: 'list',
-        name: 'license',
-        message: 'Please select a license type for your project',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
-      },
-      {
-        type: 'input',
-        name: 'github',
-        message: 'Type your GitHub user name',
-      },
-      {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address?',
-      },
+  {
+    type: "input",
+    name: "title",
+    message: "Enter your project´s title",
+  },
+  {
+    type: "input",
+    name: "description",
+    message: "Write a brief description of your project",
+  },
+  {
+    type: "input",
+    name: "installation",
+    message:
+      "What command line code should I enter to begin dependencies installation?",
+    default: "npm i",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Provide any relevant usage information about your project",
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "Provide any relevant contributing information about your project",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "What command line code should I enter to run tests?",
+    default: "npm test",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "Please select a license type for your project",
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "Type your GitHub user name",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
+  },
 ];
 
 // TODO: Create a function to write README file
@@ -64,17 +65,18 @@ const questions = [
 // also imported path module to work with directory files
 // -https://nodejs.org/api/path.html
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-  }
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
-
+// Used inquirer to prompt questions on command line
+// -https://www.npmjs.com/package/inquirer
 function init() {
-    inquirer.prompt(questions).then((inquirerResponses) => {
-      console.log('Your new README file is now CREATED');
-      writeToFile('README.md', generateMarkdown({ ...inquirerResponses }));
-    });
-  }
+  inquirer.prompt(questions).then((inquirerResponses) => {
+    console.log("Your new README file is now CREATED");
+    writeToFile("README.md", generateMarkdown({ ...inquirerResponses }));
+  });
+}
 
 // Function call to initialize app
 init();
