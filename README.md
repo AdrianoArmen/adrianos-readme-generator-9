@@ -1,4 +1,5 @@
 # adrianos-readme-generatos-9
+![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 
 Homework 9 - Readme Generator
 
