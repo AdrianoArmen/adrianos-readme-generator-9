@@ -16,7 +16,7 @@ Homework 9 - Readme Generator
 
 ## Project Description 📋
 
-This command-line application powered by [Node.js](https://nodejs.org/es/) was buit to showcase my experience with [NPM](https://www.npmjs.com/) and the[Inquirer package](https://www.npmjs.com/package/inquirer). Following the acceptance criteria guidelines, the **index.js** file contains an array with the inquirer questions and input fields required to generate the final file. The [File System module](https://nodejs.org/api/fs.html) was used to allocate the new file on the directory path. After running the command-line instructions you will create a professional README file with your own custom data.
+This command-line application powered by [Node.js](https://nodejs.org/es/) was built to showcase my experience with [NPM](https://www.npmjs.com/) and the[Inquirer package](https://www.npmjs.com/package/inquirer). Following the acceptance criteria guidelines, the **index.js** file contains an array with the inquirer questions and input fields required to generate the final file. The [File System module](https://nodejs.org/api/fs.html) was used to allocate the new file on the directory path. After running the command-line instructions you will create a professional README file with your own custom data.
 
 ## Dummy README 🔧
 
